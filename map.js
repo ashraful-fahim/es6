@@ -1,7 +1,7 @@
-const numbers = [1,2,3,4,5,6];
+const numbers = [1, 2, 3, 4, 5, 6];
 
 // map always returns an array
-// it returns implicitly without declaring single 
+// it returns implicitly without declaring single line function
 
 const newArray = numbers.map(value => value + 1);
 console.log(newArray);
@@ -10,7 +10,7 @@ console.log(newArray);
 
 
 // it needs to be used a return function while using multiple lines 
-const num = [1,2,3,4,5,6];
+const num = [1, 2, 3, 4, 5, 6];
 const squareArray = num.map(element => {
     const square = element * element;
     return square;
@@ -20,7 +20,7 @@ console.log(squareArray);
 
 
 const friends = ['rahim', 'karim', 'rafiq'];
-const friendsNum = friends.map((element, index) => {
+const friendsNum = friends.map((element, index) => {           //index is the built in function parameter of map
     console.log(index);
     console.log(element);
 })
