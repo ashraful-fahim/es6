@@ -13,3 +13,7 @@ products.forEach(product =>{
         console.log(product);
     }
 })
+
+//filter returns an array obeying certain conditions
+const newProducts = products.filter(product => product.price > 10000);
+console.log(newProducts);
