@@ -17,3 +17,7 @@ products.forEach(product =>{
 //filter returns an array obeying certain conditions
 const newProducts = products.filter(product => product.price > 10000);
 console.log(newProducts);
+
+//find returns an object of the first element which satisfies it's condition
+const item = products.find(pro => pro.color ==='gold');
+console.log(item);
